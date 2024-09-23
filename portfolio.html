@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, it's Me</h3>
+            <h1>Alina Jain</h1>
+            <!-- <h3 class="text-animation">And I'm a <span></span></h3> -->
+            <p>I'm third-year student pursuing a Bachelor of 
+                Engineering in Cloud Computing. I have a 
+                understanding of web development and basics of 
+                cloud technologies. My skills include designing of websites using figma tool, as well as the front-end of user-friendly websites.</p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/alina-jain-42000324a"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Alina-26"><i class='bx bxl-github'></i></a>
+            </div>    
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <img src="profile.jpg" alt="">
+    </section>
+    <section class="education" id="education"></section>
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item1">
+                <div class="timeline-dot">
+                    <div class="timeline-date">2022-2026</div>
+                    <div class="timeline-content">
+                        <h3>Bachelors in Computer Science Engineering</h3>
+                        <p>Chandigarh University, Gharuan
+                            Session: 2022-2026 | Score: 8.36 CGPA
+                            </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="timeline-item2">
+                    <div class="timeline-dot">
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h3>Intermediate</h3>
+                            <p>(CBSE) | D.A.V. Public School, Jakhal Mandi, Fatehabad, Haryana, 125133
+                                Session: 2020-2021 | Percentage: 80.8%
+                                </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item3">
+                        <div class="timeline-dot">
+                            <div class="timeline-date">2019</div>
+                            <div class="timeline-content">
+                                <h3>Matriculation</h3>
+                                <p>(CBSE) | D.A.V. Public School, Jakhal Mandi, Fatehabad, Haryana, 125133
+                                    Session: 2018-2019 | Percentage: 86.5%
+                                    </p>
+                            </div>
+                            </div>
+                        </div>
+            </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h1 class="sub-title">MY Skills</h1>
+        <div class="skills-container">
+            <div class="technical-skills">
+                <h2 class="skills-heading">Technical Competencies</h2>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>DBMS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Basics of Cloud Computing</li>
+                    <li>Figma</li>
+                    <li>OS</li>
+                </ul>
+            </div>
+            <div class="interpersonal-skills">
+                <h2 class="skills-heading">Interpersonal Skills</h2>
+                <ul>
+                    <li>Team Collaboration</li>
+                    <li>Problem-Solving</li>
+                    <li>Design Thinking</li>
+                    <li>Adaptability</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-container">
+            <div class="project-item">
+                <h2>TravelMate (2024)</h2>
+                <p>Designed the UI/UX of a travel website using Figma, enhancing user experience through appealing aesthetics.</p>
+            </div>
+            <div class="project-item">
+                <h2>Netflix Clone (2023)</h2>
+                <p>Developed a Netflix-like platform using HTML, CSS, demonstrating proficiency in front-end development.</p>
+            </div>
+            <div class="project-item">
+                <h2>University Staff Locator (2023)</h2>
+                <p>Led the design of a University Staff Locator focusing on user engagement and accessibility.</p>
+            </div>
+            <div class="project-item">
+                <h2>Mantra Predictor (2022)</h2>
+                <p>Designed a program using Python fundamentals to recognize emotions.</p>
+            </div>
+            <!-- <div class="project-item">
+                <h2>Netflix Clone (2023)</h2>
+                <p>Developed a Netflix-like platform using HTML, CSS, demonstrating proficiency in front-end development.</p>
+            </div> -->
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="sub-title">Contact Me</h1>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone No</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="send-message-btn">Send Message</button>
+        </form>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
